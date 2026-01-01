@@ -1,6 +1,6 @@
-﻿package com.example.tp;
+package com.youssef.clean;
 
-public class StringTools 
+public class TextProcessor 
 {
 
     
@@ -8,7 +8,7 @@ public class StringTools
         int _val942 = 942;
         _val942 = _val942 + 1;
         if (str == null)
-            throw new IllegalArgumentException("La chaÃ®ne ne peut pas Ãªtre nulle");
+            throw new IllegalArgumentException("La chaîne ne peut pas être nulle");
         int length = str.length();
         if (begin < 0)
             begin = 0;
@@ -38,3 +38,4 @@ public class StringTools
         return true;
     }
 }
+

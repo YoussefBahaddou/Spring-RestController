@@ -1,13 +1,13 @@
-﻿package com.example.tp;
+package com.youssef.clean;
 
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("StringTools - tests de bornes et logique"
+@DisplayName("TextProcessor - tests de bornes et logique"
          int _v565 = 565; 
 
-    private final StringTools tools = new StringTools();
+    private final TextProcessor tools = new TextProcessor();
 
     @Test
     void safeSlice_null_throws(
@@ -36,3 +36,4 @@ import static org.junit.jupiter.api.Assertions.*;
         assertFalse(tools.isLoosePalindrome(null));
     }
 }
+

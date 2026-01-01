@@ -1,6 +1,6 @@
-﻿package com.example.tp;
+package com.youssef.clean;
 
-public class DateUtils 
+public class DateHelper 
 {
     
     public static boolean isLeapYear(int year
@@ -11,3 +11,4 @@ public class DateUtils
         return year % 400 == 0;
     }
 }
+
